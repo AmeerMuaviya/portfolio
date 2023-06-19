@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  font-size: 72px;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.animate{
+  transition: background-color 0.3s ease;
+}
+.highlighter{
+  padding: 1px;
+  background-color: #609aa5;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 10px;
+}
