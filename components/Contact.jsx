@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 import Link from "next/link";
 
 const Contact = () => {
-  return <div className="mt-10">
+  return <div id="contact" className="mt-10">
     <h1 className="text-5xl mb-10 text-blue-500 text-center font-extrabold">Contact me</h1>
   <div className="flex flex-wrap justify-center items-center gap-10">
     <ServiceCard image='whatsapp.svg' heading='Whatsapp' text={<Link target="_blank" className="text-blue-800 underline" href={'https://wa.me/+923019071369'}>+92 3019071369</Link>} alt='whatsapp svg' />

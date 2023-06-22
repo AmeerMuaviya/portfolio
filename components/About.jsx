@@ -4,7 +4,7 @@ import Download from "./svg/Download";
 
 const About = () => {
   return (
-    <div className="mt-16 min-h-screen flex justify-center flex-wrap items-center gap-16">
+    <div id="intro" className="mt-16 min-h-screen flex justify-center flex-wrap items-center gap-16">
       <div className="md:h-[35rem] bg-cover bg-me md:w-[25rem] md:rounded-lg rounded-full h-[15rem] w-[15rem] bg-center"></div>
       <div>
         <h1 className={`mb-20 text-6xl font-extrabold`}>About me</h1>

@@ -5,9 +5,8 @@ import "react-circular-progressbar/dist/styles.css";
 import ProgressBar from "@ramonak/react-progress-bar";
 
 const Languages = () => {
-  const percentage = 66;
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" id="skills">
       <h1 className="text-blue-500 text-5xl font-extrabold text-center mb-4">Skills</h1>
       <div className="all-cards flex flex-wrap gap-10 justify-center items-center">
 

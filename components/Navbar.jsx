@@ -15,7 +15,7 @@ export default function Navbar() {
           Skills
         </a>
         <a href="/#contact" className={`underline-on-hover`}>
-          Contacts
+          Contact
         </a>
         <a href="/#projects" className={`underline-on-hover`}>
           Projects
