@@ -19,6 +19,7 @@ module.exports = {
         "tailwind":"url(/tailwind.svg)",
         "frontEnd":"url(/images/frontEnd.png)",
         "mysql":"url(/images/mysql.png)",
+        me:"url(/images/me.jpeg)"
       },
       colors: {
         text: "#010809",

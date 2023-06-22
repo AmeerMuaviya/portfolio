@@ -1,19 +1,28 @@
+"use client";
+import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
+import Education from "@/components/Education";
 import Footer from "@/components/Footer";
-import Intro from "@/components/Intro";
+import HireMe from "@/components/HireMe";
+import Languages from "@/components/Languages";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Services from "@/components/Services";
 
 export default function Home() {
-
-
   return (
-    <main className="container mx-auto mt-2 flex flex-col gap-3 h-auto bg-accent/40 backdrop-blur-lg rounded-xl">
+    <main className="container mx-auto mt-3">
       <Navbar />
-      <Banner/>
-      <Intro/>
-      <Projects/>
-      <Footer/>
+      <Banner />
+      <About />
+      <Education />
+      <Languages />
+      <Services />
+      <Projects />
+      <HireMe/>
+      <Contact/>
+      <Footer />
     </main>
   );
 }
