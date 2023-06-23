@@ -34,9 +34,9 @@ const About = () => {
             <span>03019071369</span>
           </li>
         </ul>
-        <button className=" mt-5 bg-blue-500 flex text-white p-5 rounded-lg font-bold">
+        <a href={'/CV.pdf'} download={true} className=" mt-5 bg-blue-500 flex text-white p-5 rounded-lg font-bold max-w-fit">
           Download Cv &nbsp; <Download />
-        </button>
+        </a>
       </div>
     </div>
   );
