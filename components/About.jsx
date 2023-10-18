@@ -35,7 +35,7 @@ const About = () => {
           </li>
         </ul>
         <a href={'/CV.pdf'} download={true} className=" mt-5 bg-blue-500 flex text-white p-5 rounded-lg font-bold max-w-fit">
-          Download Cv &nbsp; <Download />
+          Download CV &nbsp; <Download />
         </a>
       </div>
     </div>
