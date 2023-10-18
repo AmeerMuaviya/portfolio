@@ -31,7 +31,7 @@ const About = () => {
           </li>
           <li>
             <span>Phone</span>
-            <span>03019071369</span>
+            <span>03062235406</span>
           </li>
         </ul>
         <a href={'/CV.pdf'} download={true} className=" mt-5 bg-blue-500 flex text-white p-5 rounded-lg font-bold max-w-fit">
