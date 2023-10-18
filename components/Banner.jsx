@@ -19,12 +19,13 @@ const Banner = () => {
             <TypeAnimation
               className={`gradient-text ${lilta} md:text-3xl text-2xl`}
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 "Full Stack Web Developer.",
-                100, // wait 1s before replacing "Mice" with "Hamsters"
-                "React Native Developer",
                 100,
                 "Expret UI/UX designer.",
+                100,
+                "React.js Developer.",
+                100,
+                "Node.js Developer.",
                 100,
               ]}
               wrapper="span"
