@@ -60,8 +60,7 @@ const Projects = () => {
         <li className="mt-4 list-decimal md:text-2xl text-xl">
           <h1 className={`mb-4`}>
             <span className="highlighter p-2">
-              Mobile Application For &quot;Shoaib Academy (Under
-              Development)&quot;:
+             Instagram UI Clone (Under Development)
             </span>
           </h1>
           <div className="flex justify-center flex-wrap items-center gap-5">

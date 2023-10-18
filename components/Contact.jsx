@@ -10,7 +10,7 @@ const Contact = () => {
     <ServiceCard image='whatsapp.svg' heading='Whatsapp' text={<Link target="_blank" className="text-blue-800 underline" href={'https://wa.me/+923019071369'}>+92 3019071369</Link>} alt='whatsapp svg' />
     <ServiceCard image='facebook.svg' heading='Facebook' text={<Link target="_blank" className="text-blue-800 underline" href={'https://www.facebook.com/Rana.Muaviya128'}>facebook.com/Rana.Muaviya128</Link>} alt='facebook svg' />
     <ServiceCard image='instagram.svg' heading='Instagram' text={<Link target="_blank" className="text-blue-800 underline" href={'https://www.instagram.com/emirmuaviye/'}>instagram.com/emirmuaviye/</Link>} alt='instagram svg' />
-    <ServiceCard image='gmail.svg' heading='Gmail' text={<Link target="_blank" className="text-blue-800 underline" href={'mailto:ranamuaviya127@gmail.com'}>instagram.com/emirmuaviye/</Link>} alt='mail svg' />
+    <ServiceCard image='gmail.svg' heading='Gmail' text={<Link target="_blank" className="text-blue-800 underline" href={'mailto:ranamuaviya127@gmail.com'}>ranamuaviya127@gmail.com</Link>} alt='mail svg' />
   </div>
   </div>
 };
